@@ -1,0 +1,13 @@
+body,img,a,div,ul,li,ol,dl,dt,dd,p,span,input,form{padding:0;margin:0;}
+body{
+	font:15px "微软雅黑",Lato, sans-sarif;  background:white;
+}
+a{
+	text-decoration:none;color:#ababab;
+}
+ul{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:lighter;
+}
