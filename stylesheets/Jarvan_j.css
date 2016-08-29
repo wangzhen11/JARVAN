@@ -1,0 +1,139 @@
+.container{
+	width:100%;
+	margin:0 auto;
+}
+.nav {
+	position:fixed;
+	width:1350px;
+	height:80px;
+	background:#000;
+	background:rgba(0,0,0,0.9);
+}
+.nav img {
+	float:left;
+	margin:15px 0 0 50px;
+}
+.nav ul{
+	float:right;
+	margin-right:50px;
+	text-align:center;
+	line-height:90px;
+}
+.nav ul li{
+	display:inline-block;
+	margin-left:50px;
+}
+.nav ul li :hover{
+	color:#60c10a;
+	border-bottom:1px solid #60c10a;
+	
+}
+.main-plan{
+	height:665px;
+	background:url(../images/background_1.jpg);
+}
+.main-plan  img{
+	margin:100px 0 0 720px;
+}
+.main-plan .tip1{
+	width:486px;
+	height:486px;
+}
+.main-plan  p{
+	font-size:35px;
+	color:white;
+	margin:-280px 0 0 180px;
+}
+.main-plan .text{
+	margin:20px 0 0 180px;
+	font-size:14px;
+	color:white;
+	text-indent:2em;
+	line-height:25px;
+}
+.main-ensure{
+	height:665px;
+	background:url(../images/background1.jpg);
+}
+.main-ensure .tip{
+	width:486px;
+	height:486px;
+}
+.main-ensure img{
+	margin:80px 0 0 720px;
+}
+.main-ensure   p{
+	font-size:35px;
+	color:white;
+	margin:-340px 0 0 180px;
+}
+.main-ensure .text{
+	margin:20px 0 0 180px;
+	font-size:14px;
+	color:white;
+	text-indent:2em;
+	line-height:25px;
+}
+.main-ensure .text p{
+	margin:25px 0 0 0;
+	font-size:14px;
+	text-indent:0em;
+}
+.main-communicate{
+	height:665px;
+	background:url(../images/background2.jpg);
+}
+.main-communicate img{
+	margin:100px 0 0 780px;
+}
+.main-communicate .tip2{
+	width:486px;
+	height:486px;
+}
+.main-communicate   p{
+	font-size:35px;
+	color:white;
+	margin:-300px 0 0 180px;
+}
+.main-communicate   h3{
+	font-size:25px;
+	color:white;
+	margin:0px 0 0 250px;
+}
+.main-communicate .text{
+	margin:20px 0 0 180px;
+	font-size:14px;
+	color:white;
+	text-indent:2em;
+	line-height:25px;
+}
+.main-communicate .text p{
+	margin:25px 0 0 0;
+	font-size:14px;
+	text-indent:0em;
+}
+.main-friend{
+	height:665px;
+	background:url(../images/background3.jpg);
+}
+.main-friend p{
+	line-height:260px;
+	text-align:center;
+	font-size:35px;
+	color:white;
+}
+.main-friend .text-x{
+	margin-top:-100px;
+	font-size:14px;
+	color:white;
+	text-align:center;
+	line-height:25px;
+}
+.main-friend img{
+	margin:-80px 0 0 440px;
+}
+.main-friend a img{
+	position:absolute;
+	top:2355px;
+	left:138px;
+}
