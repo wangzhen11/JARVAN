@@ -28,6 +28,7 @@
 	color:#000;
 }
 .main{
+	clear:left;
 	height:450px;
 	background:#f7f7f7;
 }
@@ -57,16 +58,14 @@
 	transform:scale(1.1);
 }
 .main .content{
-	width:1350px;
-	height:402px;
 	float:left;
-	margin-right:-800px;
+	margin-right:-803px;
 	overflow:hidden;
 }
 .main .content .tuone{
 	width:530px;
 	height:200px;
-	margin-left:10px;
+	margin:10px 0 0 7px;
 	overflow:hidden;
 }
 .main .content .tuone img{
@@ -78,7 +77,7 @@
 .main .content .style-1{
 	position:relative;
 	top:-40px;
-	left:10px;
+	left:7px;
 	width:530px;
 	height:40px;
 	background:black;
@@ -89,7 +88,7 @@
 	text-indent:1em;
 }
 .main .content .tutwo{
-	margin:-50px 0 0 10px;
+	margin:-45px 0 0 7px;
 	width:260px;
 	height:190px;
 	overflow:hidden;
@@ -103,7 +102,7 @@
 .main .content .style-2{
 	position:relative;
 	top:-40px;
-	left:10px;
+	left:7px;
 	width:260px;
 	height:40px;
 	background:black;
@@ -117,7 +116,7 @@
 	width:260px;
 	height:190px;
 	overflow:hidden;
-	margin:-230px 0 0 280px;
+	margin:-230px 0 0 277px;
 }
 .main .content .tuthree img{
 	transition:1s;
@@ -128,7 +127,7 @@
 .main .content .style-3{
 	position:relative;
 	top:-40px;
-	left:280px;
+	left:277px;
 	width:260px;
 	height:40px;
 	background:black;
