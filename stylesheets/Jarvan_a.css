@@ -1,0 +1,295 @@
+.container{
+	width:1350px;
+	margin:0 auto;
+	background:white;
+}
+.nav{
+	height:90px;
+}
+.nav img {
+	float:left;
+	margin:20px 0 0 50px;
+}
+.nav ul{
+	float:right;
+	margin-right:50px;
+	text-align:center;
+	line-height:100px;
+}
+.nav ul li{
+	display:inline-block;
+	margin-left:50px;
+}
+.nav ul li :hover{
+	color:#60c10a;
+	border-bottom:1px solid #60c10a;
+}
+.nav a{
+	color:#000;
+}
+.main{
+	height:450px;
+	background:#f7f7f7;
+}
+.main .left{
+	float:left;
+	width:500px;
+	height:402px;
+	margin-top:10px;
+	overflow:hidden;
+}
+.main .left .style{
+	position:relative;
+	top:-40px;
+	width:500px;
+	height:40px;
+	background:black;
+	background:rgba(0,0,0,0.8);
+	font-size:20px;
+	color:white;
+	line-height:40px;
+	text-indent:1em;
+}
+.main .left img{
+	transition:1s;
+}
+.main .left img:hover{
+	transform:scale(1.1);
+}
+.main .content{
+	width:1350px;
+	height:402px;
+	float:left;
+	margin-right:-800px;
+	overflow:hidden;
+}
+.main .content .tuone{
+	width:530px;
+	height:200px;
+	margin-left:10px;
+	overflow:hidden;
+}
+.main .content .tuone img{
+	transition:1s;
+}
+.main .content .tuone img:hover{
+	transform:scale(1.1);
+}
+.main .content .style-1{
+	position:relative;
+	top:-40px;
+	left:10px;
+	width:530px;
+	height:40px;
+	background:black;
+	background:rgba(0,0,0,0.8);
+	font-size:15px;
+	color:white;
+	line-height:40px;
+	text-indent:1em;
+}
+.main .content .tutwo{
+	margin:-50px 0 0 10px;
+	width:260px;
+	height:190px;
+	overflow:hidden;
+}
+.main .content .tutwo img{
+	transition:1s;
+}
+.main .content .tutwo img:hover{
+	transform:scale(1.1);
+}
+.main .content .style-2{
+	position:relative;
+	top:-40px;
+	left:10px;
+	width:260px;
+	height:40px;
+	background:black;
+	background:rgba(0,0,0,0.8);
+	font-size:15px;
+	color:white;
+	line-height:40px;
+	text-indent:1em;
+}
+.main .content .tuthree{
+	width:260px;
+	height:190px;
+	overflow:hidden;
+	margin:-230px 0 0 280px;
+}
+.main .content .tuthree img{
+	transition:1s;
+}
+.main .content .tuthree img:hover{
+	transform:scale(1.1);
+}
+.main .content .style-3{
+	position:relative;
+	top:-40px;
+	left:280px;
+	width:260px;
+	height:40px;
+	background:black;
+	background:rgba(0,0,0,0.8);
+	font-size:15px;
+	color:white;
+	line-height:40px;
+	text-indent:1em;
+}
+.main .right{
+	float:right;
+	width:300px;
+	height:402px;
+	overflow:hidden;
+}
+.main .right img{
+	transition:1s;
+}
+.main .right img:hover{
+	transform:scale(1.1);
+}
+.main .right .style-x{
+	position:relative;
+	top:-40px;
+	width:300px;
+	height:40px;
+	background:black;
+	background:rgba(0,0,0,0.8);
+	font-size:15px;
+	color:white;
+	line-height:40px;
+	text-indent:1em;
+}
+.menu{
+	height:400px;
+}
+.menu .font{
+	font-size:30px;
+	text-align:center;
+	line-height:150px;
+	font-weight:600;
+}
+.menu  p{
+	margin-top:-40px;
+	font-size:18px;
+	color:gray;
+	text-align:center;
+}
+.menu .font-x{
+	font-size:30px;
+	text-align:center;
+	line-height:150px;
+}
+.menu ul{
+	margin-left:-50px;
+}
+.menu ul li{
+	display:inline-block;
+	margin:50px 0 0 150px;
+	font-size:20px;
+	line-height:40px;
+	text-align:center;
+	overflow:hidden;
+}
+.menu img{
+	transition:all 1s;
+}
+.menu img:hover{
+	transform:scale(1.2);
+}
+.menu ul li a{
+	color:#323232;
+}
+.menu ul li a:hover{
+	color:orange;
+}
+.menu ul li p{
+	margin:0;
+	font-size:15px;
+	text-align:center;
+	line-height:25px;
+	color:#323232;
+}
+.column{
+	height:540px;
+	background:url(../images/gbk.jpg);
+}
+.column .font-z{
+	font-size:30px;
+	text-align:center;
+	line-height:150px;
+	font-weight:600;
+}
+.column .font-c{
+	margin:20px 0 0 700px;
+	font-size:30px;
+	font-weight:600;
+}
+.column .font-c span{
+	font-size:60px;
+	color:orange;
+}
+.column .font-v{
+	margin:20px 0 0 705px;
+	font-size:15px;
+}
+.column .font-v span{
+	color:#ff5400;
+}
+.column input {
+	width:170px;
+	height:50px;
+	background:#8ed300;
+	border-radius:5px;
+	border:1px solid #8ed300;
+	margin:50px 0 0 700px;
+	font-size:16px;
+	color:white;
+}
+.footer{
+	clear:left;
+	height:200px;
+	background:#323232;
+}
+.footer ul {
+	float:left;	
+	margin:30px 0 0 -120px;
+	color:#ababab;
+}
+.footer ul li{
+	display:inline-block;
+	margin-left:240px;
+	line-height:30px;
+}
+.footer p{
+	position:relative;
+	top:20px;
+	font-size:18px;
+	color:white;
+	line-height:10px;
+}
+.footer h6{
+	margin:150px 0 0 80px;
+	font-weight:lighter;
+	color:#ababab;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
